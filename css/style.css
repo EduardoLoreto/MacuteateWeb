@@ -1,0 +1,41 @@
+header {
+    background-color: #FFC600;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: none;
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul li{
+    float: right;
+    background-color: aqua;    
+}
+
+#menu a{
+    color: black;
+    background-color: #FFC600;
+    text-decoration: none;
+    display: flex;
+    padding: 10px 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.logoppal{
+    width: 300px;
+    display: flex;
+    margin: auto;       
+}
+
+.nombrelogo {
+   width: 450px;
+   display: flex;
+   margin: auto;
+}
