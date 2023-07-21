@@ -22,11 +22,11 @@
 <body>
   <header>
     <div>
-      <div class="logoppal">
+      <div class="logoppal container-fluid d-flex justify-content-center">
         <img src="./img/Logo Macuteate WEB.png" alt="Logo" width="100" heigth="auto">
       </div>
-      <div class="nombrelogo">
-        <h1>Macuteate Web</h1>
+      <div class="nombrelogo container-fluid d-flex justify-content-center fs-2">
+        <p>Macuteate Web</p>
       </div>
 
       <nav class="navbar navbar-expand-lg bg-body-dark bg-body-dark p-3">
@@ -65,36 +65,29 @@
   </header>
 
   <main>
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="1000">
-          <img src="./img/BANNERPROMO01.png" class="d-block w-90" alt="BANNERPROMO01">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="./img/BANNERPROMO01.png" class="d-block w-100" alt="slide1">
         </div>
-        <div class="carousel-item" data-bs-interval="1000">
-          <img src="./img/BANNERPROMO02.png" class="d-block w-90" alt="BANNERPROMO02">
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./img/BANNERPROMO02.png" class="d-block w-100" alt="slide2">
         </div>
-        <div class="carousel-item" data-bs-interval="1000">
-          <img src="./img/BANNERPRROMO3.png" class="d-block w-90" alt="BANNERPRROMO3">
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./img/BANNERPRROMO3.png" class="d-block w-100" alt="slide3">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
         data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
         data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+    </div>
     </div>
 
     <div>
@@ -102,14 +95,18 @@
     </div>
   </main>
 
-  <section>
-    
+  <section class="w-50 mx-auto text-center pt-5" id="intro">
     <div>
-      <h2>Lorem ipsum dolor sit amet.</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio omnis animi ducimus incidunt nam
-        dolorem ullam ut qui reprehenderit eaque, quasi quam assumenda labore laudantium minima minus unde
-        provident saepe!</p>
-      <a href="#">Ver más</a>
+      <h1 class="p-3 fs-2 border-top border-3">Macuteate, es la tienda online para todas las <span
+          class="text-warning">Necesidades de tus Peludos</span></h1>
+
+      <p class="p-3 fs-4">¿Sabias que 1 de cada 2 hogares en España, tienen mascota de compañía?
+        Este incremento de mascotas viene motivado por sus beneficios: ayudan a incrementar la actividad física;
+        fomentan una vida social más activa; aportan felicidad y disminuyen el sentimiento de soledad y fomentan la
+        responsabilidad de las familias.
+        Por lo que se nacio, <span
+        class="text-warning">MACUTEATE. Un Ecommerce especializado en mascotas domesticas y así poder brindar mas tiempo de
+        calidad y juego a los dueños y sus peludos.</span> </p><a href="#">Ver más</a>
     </div>
   </section>
 

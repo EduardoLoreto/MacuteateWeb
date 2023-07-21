@@ -29,13 +29,26 @@ header {
 }
 
 .logoppal{
+    height: auto;
     width: 300px;
     display: flex;
-    margin: auto;       
+    margin: auto;
+    justify-content: 39rem;
+
 }
 
 .nombrelogo {
    width: 450px;
    display: flex;
    margin: auto;
+}
+
+.carousel-inner {
+    max-height: 37rem;
+}
+
+@media (max-width: 768px) {
+    #intro {
+        width: 90% !important;
+    }
 }
