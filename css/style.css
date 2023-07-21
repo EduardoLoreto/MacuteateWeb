@@ -47,8 +47,26 @@ header {
     max-height: 37rem;
 }
 
+/*= Media Queries Pantalla Extra grande =*/
+
+
 @media (max-width: 768px) {
     #intro {
         width: 90% !important;
     }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
 }
+
+/*= Media Queries Pantalla Extra  pequeña =*/
+
+@media (max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
