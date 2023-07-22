@@ -34,6 +34,7 @@ header {
     display: flex;
     margin: auto;
     justify-content: 39rem;
+
 }
 
 .nombrelogo {
@@ -95,6 +96,14 @@ header {
     top: -130px;
 }
 
+#img-equipo{
+    max-height:30rem;
+    width:50%;
+}
+
+
+
+
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
@@ -126,8 +135,10 @@ header {
 
     
     #img-equipo{
-        height: 39px !important;
-        width:90%;
+        max-height: 20rem !important;
+        width: 90%;
+        
+
     }
     .wrapper-local {
         width:90%;
