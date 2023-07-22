@@ -126,7 +126,7 @@ header {
 
     
     #img-equipo{
-        max-height:20rem !important;
+        height: 39px !important;
         width:90%;
     }
     .wrapper-local {
