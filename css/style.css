@@ -141,10 +141,10 @@ footer p {
    }
 
    .icono-wrap{
-    flex-wrap:wrap !important;
-    justify-content: center !important;
-    text-align: center;
-}
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
  
 }
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
