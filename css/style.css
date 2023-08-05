@@ -124,7 +124,7 @@ footer p {
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
-    #intro, #equipo {
+    #intro, #equipo, #introBlog {
         width:90% !important;
         margin:auto;
     }
@@ -136,8 +136,15 @@ footer p {
    .wrapper-local {
     width:90%;
     margin:auto;
-    padding-top:50px;    
+    padding-top:50px; 
+      
    }
+
+   .icono-wrap{
+    flex-wrap:wrap !important;
+    justify-content: center !important;
+    text-align: center;
+}
  
 }
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
@@ -145,7 +152,7 @@ footer p {
 
 @media (max-width:768px) {
 
-    #intro, #equipo{
+    #intro, #equipo, #introblog {
         width:90% !important;
         margin:auto;
     }
@@ -181,8 +188,9 @@ footer p {
     #servicios-fila-2 {
         width:100% !important;
     }
-    #servicios-fila-1 {
+    #servicios-fila-1, #blog-container {
         width:100% !important;
+        text-align: center;
     }
 
     .icono-wrap{
