@@ -47,6 +47,11 @@ header {
     max-height: 39rem;
 }
 
+.scroll
+{
+     overflow-x:scroll;     
+}
+
 
 /*= Mapa/ubicacion tienda Macuteate =*/
 
