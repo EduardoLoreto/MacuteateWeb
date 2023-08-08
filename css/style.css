@@ -101,6 +101,11 @@ header {
     width:50%;
 }
 
+#img-raza{
+    max-height: 30rem;
+    width: 50%;
+}
+
 
 /*========================= Footer ================================*/
 
@@ -124,7 +129,7 @@ footer p {
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
-    #intro, #equipo, #introBlog {
+    #intro, #equipo, #introBlog, #raza {
         width:90% !important;
         margin:auto;
     }
@@ -152,7 +157,7 @@ footer p {
 
 @media (max-width:768px) {
 
-    #intro, #equipo, #introblog {
+    #intro, #equipo, #introblog, #raza {
         width:90% !important;
         margin:auto;
     }
