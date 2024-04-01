@@ -13,12 +13,12 @@ header {
     justify-content: center;
 }
 
-#menu ul li{
+#menu ul li {
     float: right;
-    background-color: aqua;    
+    background-color: aqua;
 }
 
-#menu a{
+#menu a {
     color: black;
     background-color: #FFC600;
     text-decoration: none;
@@ -28,7 +28,7 @@ header {
     font-size: 30px;
 }
 
-.logoppal{
+.logoppal {
     height: auto;
     width: 100%;
     display: flex;
@@ -38,18 +38,18 @@ header {
 }
 
 .nombrelogo {
-   width: 100%;
-   display: flex;
-   margin: auto;
+    width: 100%;
+    display: flex;
+    margin: auto;
 }
 
 .carousel-inner {
     max-height: 39rem;
+    overflow: hidden;
 }
 
-.scroll
-{
-     overflow-x:scroll;     
+.scroll {
+    overflow-x: scroll;
 }
 
 
@@ -91,22 +91,22 @@ header {
     padding-left: 20px;
 }
 
-#numeros-local p{
+#numeros-local p {
     margin: 0;
 }
 
 
-#bg-contacto{
+#bg-contacto {
     position: relative;
     top: -130px;
 }
 
-#img-equipo{
-    max-height:30rem;
-    width:50%;
+#img-equipo {
+    max-height: 30rem;
+    width: 50%;
 }
 
-#img-raza{
+#img-raza {
     max-height: 30rem;
     width: 50%;
 }
@@ -134,78 +134,94 @@ footer p {
 
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
-@media (max-width:1200px){
-    #intro, #equipo, #introBlog, #raza {
-        width:90% !important;
-        margin:auto;
+@media (max-width:2200px) {
+
+    #intro,
+    #equipo,
+    #introBlog,
+    #raza {
+        width: 90% !important;
+        margin: auto;
     }
-  
+
     #local {
         flex-wrap: wrap;
-        padding-top:30px;
-   }
-   .wrapper-local {
-    width:90%;
-    margin:auto;
-    padding-top:50px; 
-      
-   }
+        padding-top: 30px;
+    }
 
-   .icono-wrap{
-        flex-wrap:wrap !important;
+    .wrapper-local {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+
+    }
+
+    .icono-wrap {
+        flex-wrap: wrap !important;
         justify-content: center !important;
         text-align: center;
     }
- 
+
 }
+
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
 
 
 @media (max-width:768px) {
 
-    #intro, #equipo, #introblog, #raza {
-        width:90% !important;
-        margin:auto;
+    #intro,
+    #equipo,
+    #introblog,
+    #raza {
+        width: 90% !important;
+        margin: auto;
     }
 
-    
-    #img-equipo{
+
+    #img-equipo {
         max-height: 20rem !important;
         width: 90%;
-        
+
 
     }
+
     .wrapper-local {
-        width:90%;
-        margin:auto;
-        padding-top:50px;    
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
     }
+
     #local {
         flex-wrap: wrap;
     }
+
     .mapa img {
-        width:100%;
-        height:auto;
+        width: 100%;
+        height: auto;
     }
-    #bg-contactos{
+
+    #bg-contactos {
         top: -120px;
     }
 
 
 }
+
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
 
 @media (max-width: 576px) {
     #servicios-fila-2 {
-        width:100% !important;
+        width: 100% !important;
     }
-    #servicios-fila-1, #blog-container {
-        width:100% !important;
+
+    #servicios-fila-1,
+    #blog-container {
+        width: 100% !important;
         text-align: center;
     }
 
-    .icono-wrap{
-        flex-wrap:wrap !important;
+    .icono-wrap {
+        flex-wrap: wrap !important;
         justify-content: center !important;
         text-align: center;
     }
