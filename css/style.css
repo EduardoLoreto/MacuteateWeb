@@ -44,7 +44,7 @@ header {
 }
 
 .carousel-inner {
-    max-height: 39rem;
+    max-height: 65rem;
     overflow: hidden;
 }
 
@@ -167,7 +167,7 @@ footer p {
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
 
 
-@media (max-width:768px) {
+@media (max-width:860px) {
 
     #intro,
     #equipo,
